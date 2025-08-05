@@ -1,45 +1,32 @@
 /*  your css code here. If applicable */
-/* Common table styles */
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-table, th, td {
+/* Common table styling */
+table.middle {
   border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
 }
 
-/* Table 1 styling */
-.table-1 th {
+table.middle td {
+  border: 1px solid black;
+  padding: 1px;
+  spacing: 1px;
+}
+
+/* Alignments */
+.left {
+  text-align: left;
+}
+.center {
   text-align: center;
 }
-
-.table-1 td.center {
-  text-align: center;
+.right {
+  text-align: right;
 }
 
-.table-1 td.right {
-}
-
-/* Table 3 styling */
-.table-3 img.center{
-	text-align:center;
-}
-
-.table-3 tr:first-child td {
+/* Colored rows */
+.green {
   background-color: green;
-  height: 20px;
-	
 }
-
-.table-3 tr:last-child td {
+.blue {
   background-color: blue;
-  height: 20px;
-}
-
-.table-3 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
