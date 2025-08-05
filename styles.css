@@ -20,13 +20,17 @@ table, th, td {
 }
 
 .table-1 td.right {
-  text-align: right;
 }
 
 /* Table 3 styling */
+.table-3 img.center{
+	text-align:center;
+}
+
 .table-3 tr:first-child td {
   background-color: green;
   height: 20px;
+	
 }
 
 .table-3 tr:last-child td {
